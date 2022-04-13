@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- No namespace here as we will share this description. 
+       Access with slash at the beginning -->
+  
+  <!-- BEGIN ROBOT 1-->
+  <group ns="raspi_0">
+    <param name="tf_prefix" value="raspi_0_tf" />
+    <include file="$(find raspimouse_gazebo)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 0 -y 0 -z 0" />
+      <arg name="robot_namespace" value="raspi_0" />
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->
+  <group ns="raspi_1">
+    <param name="tf_prefix" value="raspi_1_tf" />
+    <include file="$(find raspimouse_gazebo)/launch/one_robot.launch" >
+      <arg name="init_pose" value="-x 1 -y 0 -z 0" />
+      <arg name="robot_namespace" value="raspi_1" />
+    </include>
+  </group>
+</launch>

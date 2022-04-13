@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <road name="road_1">
+    <width>1</width>
+    <point>-10 0 0.001</point>
+    <point>10 0 0.001</point>
+    </road>
+    <road name="road_2">
+    <width>1.0</width>
+    <point>0 -10 0.001</point>
+    <point>0 10 0.001</point>
+    </road>
+    <scene>
+      <shadows>0</shadows>
+    </scene>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  </world>
+</sdf>
