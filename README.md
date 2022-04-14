@@ -36,18 +36,22 @@ rosrun raspimouse_gazebo download_gazebo_models.sh
 
 ## Getting started
 Enter the following command for single robot simulator.
+<img src= https://user-images.githubusercontent.com/76491592/163380533-5103b6ea-b992-492e-9933-5321be3ad36c.png>
 ```sh
 roslaunch raspimouse_gazebo main_singlerobot.launch 
 ```
 Enter the following command for 2 robots simulator.
+<img src= https://user-images.githubusercontent.com/76491592/163373737-49ad4113-e28f-4b1a-8045-f6bcfc0de880.png>
 ```sh
 roslaunch raspimouse_gazebo main_2robots.launch
 ```
 Enter the following command for 20 robots simulator.
+<img src= https://user-images.githubusercontent.com/76491592/163380538-98233b19-4b15-424c-88c8-25b922b0ae73.png>
 ```sh
 roslaunch raspimouse_gazebo main_20robots.launch
 ```
 Enter the following command for 8 multicolor-robots simulator in the crossroad scenario.
+<img src= https://user-images.githubusercontent.com/76491592/163380323-3e26d3a3-fa07-47b1-ad64-1b29eac75bc6.png>
 ```sh
 roslaunch raspimouse_gazebo main_multicolor.launch 
 ```
