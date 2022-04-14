@@ -1,5 +1,6 @@
 # Multiple-RaspberryPiMouse-robots-simulator
 
+<img src= https://user-images.githubusercontent.com/76491592/163373737-49ad4113-e28f-4b1a-8045-f6bcfc0de880.png>
 Gazebo simulator fot multiple RT RaspberryPiMouse robots
 
 ## Requirements
