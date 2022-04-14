@@ -1,5 +1,5 @@
 # Multiple RaspberryPiMouse robots simulator
-Gazebo simulator fot multiple RT RaspberryPiMouse robots
+Gazebo simulator for multiple RT RaspberryPiMouse robots
 
 ## Requirements
 
