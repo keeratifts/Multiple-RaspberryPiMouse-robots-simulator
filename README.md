@@ -33,3 +33,24 @@ Download the Gazebo model
 ```sh
 rosrun raspimouse_gazebo download_gazebo_models.sh
 ```
+
+## Getting started
+Enter the following command for single robot simulator.
+```sh
+roslaunch raspimouse_gazebo main_singlerobot.launch 
+```
+Enter the following command for 2 robots simulator.
+```sh
+roslaunch raspimouse_gazebo main_2robots.launch
+```
+Enter the following command for 20 robots simulator.
+```sh
+roslaunch raspimouse_gazebo main_20robots.launch
+```
+Enter the following command for 8 multicolor-robots simulator in the crossroad scenario.
+```sh
+roslaunch raspimouse_gazebo main_multicolor.launch 
+```
+
+
+
