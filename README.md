@@ -1,4 +1,4 @@
-# Multiple-RaspberryPiMouse-robots-simulator
+# Multiple RaspberryPiMouse robots simulator
 Gazebo simulator fot multiple RT RaspberryPiMouse robots
 
 ## Requirements
