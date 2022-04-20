@@ -17,6 +17,8 @@ Download this package & install all system dependecies
 ```sh
 cd ~/<your_workspace>/src
 git clone https://github.com/keeratifts/Multiple-RaspberryPiMouse-robots-simulator.git
+git clone https://github.com/ryuichiueda/raspimouse_ros_2.git
+rosdep install raspimouse_ros_2
 cd ~/<your_workspace>/src/Multiple-RaspberryPiMouse-robots-simulator
 rosdep install -r -y -i --from-paths raspimouse*
 ```
